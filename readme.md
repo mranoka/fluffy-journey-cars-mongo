@@ -14,5 +14,7 @@
 * still in repo root directory, use *npm start* in CLI to start local server
 * navigate to 'views' directory and use *npm start* in CLI to start React app
 
+![HomePage Demo](images/demo.png)
+
 ### author
 Mahamo Ranoka

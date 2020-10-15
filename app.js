@@ -20,7 +20,7 @@ require('./routes/delete.js')(app);
 require('./routes/updateAll.js')(app);
 
 //uri for connecting to database from Atlas
-const uri = 'mongodb+srv://mranoka:mranoka99@cluster0.fojyg.mongodb.net/test?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://<>:<>@cluster0.fojyg.mongodb.net/test?retryWrites=true&w=majority';
 mongoose.Promise = global.Promise;
 
 mongoose.connect(uri, {
